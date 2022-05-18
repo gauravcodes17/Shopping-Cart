@@ -1,0 +1,142 @@
+.product-container{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 25px 0;
+}
+.filters{
+    background-color: #343a40;
+    color: #fff;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    padding: 8px 15px;
+}
+.filters .section{
+    text-align: center;
+    margin: auto;
+}
+.filters > span{
+    font-size: 16px;
+    outline: none!important;
+}
+.title{
+    font-size: 30px;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0;
+}
+.clear-button{
+    margin-top: 15px;
+    font-weight: 500!important;
+    text-transform: uppercase;
+}
+.products{
+    width: 30%;
+    margin: 10px;
+}
+.product-title{
+    font-size: 18px!important;
+    padding-bottom: 5px;
+}
+.product-price{
+    font-size: 18px!important;
+    color: green;
+}
+.product-deliver{
+    font-size: 18px!important;
+    padding-top: 5px;
+    margin: 0;
+    color: blue;
+}
+.product-button{
+    margin: 0;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px 20px;
+}
+.cartItemImg{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.cartItemDetail{
+    text-align: left!important;
+    padding-left: 20px;
+}
+.cart-delete{
+    margin-left: auto;
+    color: red;
+}
+.btn{
+    width: 100%;
+    display: block;
+}
+.summary{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+.cart-rating{
+    margin-bottom: 10px!important;
+}
+.cart-zero{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.back-to-home-button{
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 6px 15px;
+    border: none;
+    color: #fff;
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+
+}
+@media only screen and (max-width: 740px){
+    .product-container{
+        width: 100%;
+        margin: auto;
+        padding: 25px 10px;
+    }
+    .products{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .product-title{
+        font-size: 19px!important;
+        padding-bottom: 5px;
+        letter-spacing: 0px!important;
+    }
+    .product-price{
+        font-size: 16px!important;
+    }
+    .product-deliver{
+        font-size: 16px!important;
+        text-align: right!important;
+        margin-top: -25px;
+    }
+    .star{
+        margin: 0;
+        margin-top: 8px;
+        font-size: 19px;
+    }
+    .filters{
+        width: 100%;
+    }
+    .filters .section{
+        text-align: left;
+    }
+}
